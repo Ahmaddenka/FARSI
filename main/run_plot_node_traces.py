@@ -1,6 +1,8 @@
 from pathlib import Path
 from datetime import datetime
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")  # non-GUI backend (saves figures without Tk)
 import matplotlib.pyplot as plt
 
 # --- Plot Function ---

@@ -203,6 +203,8 @@ import os
 from pathlib import Path
 import numpy as np
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")   # non-GUI backend
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 
@@ -354,6 +356,8 @@ if __name__ == "__main__":
 #============================================================================================================
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")   # non-GUI backend
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from pathlib import Path

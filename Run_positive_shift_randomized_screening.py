@@ -157,7 +157,10 @@ Top-10 BSMs: positive-shift randomized screening
 """
 
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")   # non-GUI backend
 import matplotlib.pyplot as plt
+
 from pathlib import Path
 
 

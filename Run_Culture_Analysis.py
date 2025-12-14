@@ -203,6 +203,8 @@ if __name__ == "__main__":
 
 import pandas as pd
 import numpy as np
+import matplotlib
+matplotlib.use("Agg")   # non-GUI backend
 import matplotlib.pyplot as plt
 from matplotlib.colors import LinearSegmentedColormap
 from pathlib import Path
@@ -514,7 +516,10 @@ if __name__ == "__main__":
 #========================================================================================
 
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")   # non-GUI backend
 import matplotlib.pyplot as plt
+
 from pathlib import Path
 OUT_DIR = Path("output")
 
@@ -771,6 +776,8 @@ Top-10 BSMs: positive-shift randomized screening
 """
 
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")   # non-GUI backend
 import matplotlib.pyplot as plt
 from pathlib import Path
 

@@ -173,7 +173,10 @@ if __name__ == "__main__":
     main()
 #===============================================================================
 import pandas as pd
+import matplotlib
+matplotlib.use("Agg")   # non-GUI backend
 import matplotlib.pyplot as plt
+
 from pathlib import Path
 from pathlib import Path
 OUT_DIR = Path("output")
