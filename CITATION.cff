@@ -4,8 +4,9 @@ title: "FARSI_Project"
 authors:
   - family-names: "Dehghan Nejad"
     given-names: "Ahmad"
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2025-12-14"
 url: "https://github.com/Ahmaddenka/FARSI"
 license: "MIT"
-doi: "10.5281/zenodo.<XXXXX>"
+doi: 10.5281/zenodo.17932166
+
